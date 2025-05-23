@@ -1,3 +1,6 @@
+[![AI Agents In Production](./images/lesson-10-thumbnail.png)](https://youtu.be/l4TP6IyJxmQ?si=IvCW3cbw0NJ2mUMV)
+
+> _(Click the image above to view video of this lesson)_
 # AI Agents in Production
 
 ## Introduction
@@ -20,9 +23,9 @@ It is important to deploy AI Agents that are trustworthy. Check out the "Buildin
 
 ## Evaluating AI Agents
 
-Before, during, and after deploying AI Agents, having a proper system to evaluate your AI Agents is critical. This will ensure that your system is aligned with your and your users' goals.
+Before, during, and after deploying AI Agents, having a proper system to evaluate your AI Agents is critical. This will ensure that your system is aligned with you and your users' goals.
 
-To evaluate an AI Agent, it is important to have the ability to evaluate not only the agent's output but the entire system that your AI Agent is operating in. This includes but is not limited to:
+To evaluate an AI Agent, it is important to have the ability to evaluate not only the agent's output but also the entire system that your AI Agent is operating in. This includes but is not limited to:
 
 - The initial model request.
 - The agent's ability to identify the intent of the user.
@@ -48,18 +51,22 @@ Here are some strategies to manage the costs of deploying AI Agents to productio
 
 - **Caching Responses** - Identifying common requests and tasks and providing the responses before they go through your agentic system is a good way to reduce the volume of similar requests. You can even implement a flow to identify how similar a request is to your cached requests using more basic AI models.
 
-- **Using Smaller Models** - Small Language Models (SLMs) can perform well on certain agentic use-cases and will reduce costs significantly. As mentioned earlier, building an evaluation system to determine and compare performance vs larger models is the best way to understand of well an SLM will perform on your use case.
+- **Using Smaller Models** - Small Language Models (SLMs) can perform well on certain agentic use-cases and will reduce costs significantly. As mentioned earlier, building an evaluation system to determine and compare performance vs larger models is the best way to understand how well an SLM will perform on your use case.
 
-- **Using a Router Model** - A similar strategy is to use a diversity of models and sizes. You can user a LLM/SLM or serverless function to route requests based on complexity to the best fit models. This will also help reduce costs while also ensuring performance on the right tasks.
+- **Using a Router Model** - A similar strategy is to use a diversity of models and sizes. You can use an LLM/SLM or serverless function to route requests based on complexity to the best fit models. This will also help reduce costs while also ensuring performance on the right tasks.
 
-## Congratulations  
+## Congratulations
 
 This is currently the last lesson of "AI Agents for Beginners".
 
 We plan to continue to add lessons based on feedback and changes in this ever growing industry so stop by again in the near future.
 
-If you want to continue your learning and building with AI Agents, join the [Azure AI Community Discord](https://discord.gg/kzRShWzttr).
+If you want to continue your learning and building with AI Agents, join the <a href="https://discord.gg/kzRShWzttr" target="_blank">Azure AI Community Discord</a>.
 
 We host workshops, community roundtables and "ask me anything" sessions there.
 
 We also have a Learn collection of additional materials that can help you start building AI Agents in production.
+
+## Previous Lesson
+
+[Metacognition Design Pattern](../09-metacognition/README.md)

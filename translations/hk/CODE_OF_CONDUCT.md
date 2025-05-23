@@ -1,12 +1,21 @@
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "c06b12caf3c901eb3156e3dd5b0aea56",
+  "translation_date": "2025-05-20T07:32:00+00:00",
+  "source_file": "CODE_OF_CONDUCT.md",
+  "language_code": "hk"
+}
+-->
 # Microsoft 開源行為守則
 
-此項目採用了 [Microsoft 開源行為守則](https://opensource.microsoft.com/codeofconduct/)。
+本項目已採用 [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/)。
 
-相關資源：
+資源：
 
-- [Microsoft 開源行為守則](https://opensource.microsoft.com/codeofconduct/)
-- [Microsoft 行為守則常見問題](https://opensource.microsoft.com/codeofconduct/faq/)
-- 如有疑問或關注，請聯繫 [opencode@microsoft.com](mailto:opencode@microsoft.com)
+- [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/)
+- [Microsoft Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/)
+- 有問題或疑慮請聯絡 [opencode@microsoft.com](mailto:opencode@microsoft.com)
 
-**免責聲明**:  
-本文件已使用機器翻譯服務進行翻譯。我們致力於提供準確的翻譯，但請注意，自動翻譯可能包含錯誤或不準確之處。應以原文文件為權威來源。對於關鍵資訊，建議尋求專業人工翻譯。我們對因使用此翻譯而引起的任何誤解或錯誤解釋概不負責。
+**免責聲明**：  
+本文件由 AI 翻譯服務 [Co-op Translator](https://github.com/Azure/co-op-translator) 翻譯而成。雖然我們致力於提供準確的翻譯，但請注意自動翻譯可能包含錯誤或不準確之處。原始文件的母語版本應被視為權威來源。對於重要資訊，建議使用專業人工翻譯。我們不對因使用本翻譯而引起的任何誤解或誤釋承擔責任。

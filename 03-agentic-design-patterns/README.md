@@ -1,3 +1,6 @@
+[![How to Design Good AI Agents](./images/lesson-3-thumbnail.png)](https://youtu.be/m9lM8qqoOEA?si=4KimounNKvArQQ0K)
+
+> _(Click the image above to view video of this lesson)_
 # AI Agentic Design Principles
 
 ## Introduction
@@ -22,12 +25,12 @@ In general, agents should:
 After completing this lesson, you will be able to:
 
 1. Explain what the Agentic Design Principles are
-2. Explain the guidelines to using the Agentic Design Principles
+2. Explain the guidelines for using the Agentic Design Principles
 3. Understand how to build an agent using the Agentic Design Principles
 
 ## The Agentic Design Principles
 
-![Agentic Design Principles](./images/agentic-design-principles.png?WT.mc_id=academic-105485-koreyst)
+![Agentic Design Principles](./images/agentic-design-principles.png)
 
 ### Agent (Space)
 
@@ -36,11 +39,11 @@ This is the environment in which the agent operates. These principles inform how
 - **Connecting, not collapsing** – help connect people to other people, events, and actionable knowledge to enable collaboration and connection.
 - Agents help connect events, knowledge, and people.
 - Agents bring people closer together. They are not designed to replace or belittle people.
-- **Easily accessible yet occasionally invisible** – agent largely operate in the background and only nudges us when it is relevant and appropriate.
+- **Easily accessible yet occasionally invisible** – agent largely operates in the background and only nudges us when it is relevant and appropriate.
   - Agent is easily discoverable and accessible for authorized users on any device or platform.
   - Agent supports multimodal inputs and outputs (sound, voice, text, etc.).
   - Agent can seamlessly transition between foreground and background; between proactive and reactive, depending on its sensing of user needs.
-  - Agent may operate in invisible form, yet its background process path and collaboration with other Agents is transparent to and controllable by the user.
+  - Agent may operate in invisible form, yet its background process path and collaboration with other Agents are transparent to and controllable by the user.
 
 ### Agent (Time)
 
@@ -50,7 +53,7 @@ This is how the agent operates over time. These principles inform how we design 
   - Agent provides more relevant results based on analysis of richer historical data beyond only the event, people, or states.
   - Agent creates connections from past events and actively reflects on memory to engage with current situations.
 - **Now**: Nudging more than notifying.
-  - Agent embodies a comprehensive approach to interacting with people. When an event happens, Agent goes beyond static notification or other static formality. Agent can simplify flows or dynamically generate cues to direct the user’s attention at the right moment.
+  - Agent embodies a comprehensive approach to interacting with people. When an event happens, the Agent goes beyond static notification or other static formality. Agent can simplify flows or dynamically generate cues to direct the user’s attention at the right moment.
   - Agent delivers information based on contextual environment, social and cultural changes and tailored to user intent.
   - Agent interaction can be gradual, evolving/growing in complexity to empower users over the long term.
 - **Future**: Adapting and evolving.
@@ -67,9 +70,9 @@ These are the key elements in the core of an agent’s design.
   - Trust and transparency are foundational layers of Agent design.
   - Humans are in control of when the Agent is on/off and Agent status is clearly visible at all times.
 
-## The Guidelines To Implement These Principles
+## The Guidelines to Implement These Principles
 
-When you’re using the above design principles, use the following guidelines:
+When you’re using the previous design principles, use the following guidelines:
 
 1. **Transparency**: Inform the user that AI is involved, how it functions (including past actions), and how to give feedback and modify the system.
 2. **Control**: Enable the user to customize, specify preferences and personalize, and have control over the system and its attributes (including the ability to forget).
@@ -84,7 +87,15 @@ Imagine you are designing a Travel Agent, here is how you could think about usin
 3. **Consistency** – Make sure the icons for Share Prompt, add a file or photo and tag someone or something are standard and recognizable. Use the paperclip icon to indicate file upload/sharing with the Agent, and an image icon to indicate graphics upload.
 
 ## Additional Resources
-- [Practices for Governing Agentic AI Systems | OpenAI](https://openai.com)
-- [The HAX Toolkit Project - Microsoft Research](https://microsoft.com)
-- [Responsible AI Toolbox](https://responsibleaitoolbox.ai)
 
+- <a href="https://openai.com" target="_blank">Practices for Governing Agentic AI Systems | OpenAI</a>
+- <a href="https://microsoft.com" target="_blank">The HAX Toolkit Project - Microsoft Research</a>
+- <a href="https://responsibleaitoolbox.ai" target="_blank">Responsible AI Toolbox</a>
+
+## Previous Lesson
+
+[Exploring Agentic Frameworks](../02-explore-agentic-frameworks/README.md)
+
+## Next Lesson
+
+[Tool Use Design Pattern](../04-tool-use/README.md)

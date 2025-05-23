@@ -1,40 +1,49 @@
-# 保安
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "d8fe220fa2850df0759b07cf391ea77c",
+  "translation_date": "2025-05-20T07:33:34+00:00",
+  "source_file": "SECURITY.md",
+  "language_code": "hk"
+}
+-->
+# Security
 
-Microsoft 非常重視我們軟件產品和服務的安全性，這包括通過我們的 GitHub 組織管理的所有源代碼庫，例如 [Microsoft](https://github.com/Microsoft)、[Azure](https://github.com/Azure)、[DotNet](https://github.com/dotnet)、[AspNet](https://github.com/aspnet) 和 [Xamarin](https://github.com/xamarin)。
+Microsoft 非常重視我們軟件產品及服務的安全，當中包括所有透過我們 GitHub 組織管理的原始碼庫，包括 [Microsoft](https://github.com/Microsoft)、[Azure](https://github.com/Azure)、[DotNet](https://github.com/dotnet)、[AspNet](https://github.com/aspnet) 及 [Xamarin](https://github.com/xamarin)。
 
-如果你認為你發現了任何 Microsoft 擁有的代碼庫中存在的安全漏洞，並且該漏洞符合 [Microsoft 對安全漏洞的定義](https://aka.ms/security.md/definition)，請按照以下描述向我們報告。
+如果你相信發現了任何屬於 Microsoft 擁有的原始碼庫中的安全漏洞，並符合 [Microsoft 對安全漏洞的定義](https://aka.ms/security.md/definition)，請按以下指示向我們舉報。
 
-## 報告安全問題
+## Reporting Security Issues
 
-**請不要通過公開的 GitHub 問題報告安全漏洞。**
+**請勿透過公開的 GitHub issues 報告安全漏洞。**
 
-相反，請通過 Microsoft Security Response Center (MSRC) 報告，網址為 [https://msrc.microsoft.com/create-report](https://aka.ms/security.md/msrc/create-report)。
+請改為向 Microsoft Security Response Center (MSRC) 報告，網址為 [https://msrc.microsoft.com/create-report](https://aka.ms/security.md/msrc/create-report)。
 
-如果你更願意在未登錄的情況下提交，請發送電子郵件至 [secure@microsoft.com](mailto:secure@microsoft.com)。如有可能，請使用我們的 PGP 密鑰加密你的信息；可以從 [Microsoft Security Response Center PGP Key 頁面](https://aka.ms/security.md/msrc/pgp) 下載。
+如果你想不登入也能提交，請發電郵到 [secure@microsoft.com](mailto:secure@microsoft.com)。如有可能，請使用我們的 PGP 金鑰加密訊息；你可以從 [Microsoft Security Response Center PGP Key page](https://aka.ms/security.md/msrc/pgp) 下載。
 
-你應該會在 24 小時內收到回覆。如果出於某些原因未收到，請通過電子郵件跟進，以確保我們收到了你的原始消息。更多資訊可以在 [microsoft.com/msrc](https://www.microsoft.com/msrc) 找到。
+你應該會在 24 小時內收到回覆。如未有回覆，請透過電郵跟進，確保我們已收到你的訊息。更多資料可見 [microsoft.com/msrc](https://www.microsoft.com/msrc)。
 
-請包括以下列出的信息（提供越多越好），以幫助我們更好地理解可能問題的性質和範圍：
+請盡量提供以下資料，幫助我們更了解問題的性質及範圍：
 
-* 問題類型（例如，緩衝區溢出、SQL 注入、跨站腳本攻擊等）
-* 與問題表現相關的源文件完整路徑
-* 受影響源代碼的位置（標籤/分支/提交或直接 URL）
-* 重現問題所需的任何特殊配置
-* 重現問題的逐步操作說明
-* 概念驗證或漏洞利用代碼（如果可能）
-* 問題的影響，包括攻擊者可能如何利用該問題
+* 問題類型（例如緩衝區溢位、SQL 注入、跨站腳本等）
+* 與問題出現有關的原始碼檔案完整路徑
+* 受影響原始碼的位置（標籤/分支/提交或直接 URL）
+* 重現問題所需的特殊設定
+* 重現問題的逐步指示
+* 概念驗證或利用程式碼（如有）
+* 問題的影響，包括攻擊者如何利用該漏洞
 
-這些信息將幫助我們更快速地處理你的報告。
+這些資料能幫助我們更快處理你的報告。
 
-如果你是為了參與漏洞賞金計劃進行報告，更完整的報告可能有助於獲得更高的賞金獎勵。請訪問我們的 [Microsoft Bug Bounty Program](https://aka.ms/security.md/msrc/bounty) 頁面，了解更多有關我們現行計劃的詳情。
+如果你是為了漏洞賞金而報告，完整的報告有助提高賞金金額。詳情請參閱我們的 [Microsoft Bug Bounty Program](https://aka.ms/security.md/msrc/bounty) 頁面。
 
-## 首選語言
+## Preferred Languages
 
-我們更希望所有的通信以英文進行。
+我們偏好所有通訊使用英文。
 
-## 政策
+## Policy
 
-Microsoft 遵循 [協調漏洞披露](https://aka.ms/security.md/cvd) 的原則。
+Microsoft 遵循 [Coordinated Vulnerability Disclosure](https://aka.ms/security.md/cvd) 原則。
 
-**免責聲明**:  
-本文件經由機器人工智能翻譯服務進行翻譯。我們致力於提供準確的翻譯，但請注意，自動翻譯可能包含錯誤或不準確之處。應以原文文件作為權威來源。對於關鍵資訊，建議尋求專業人工翻譯。我們對因使用此翻譯而引起的任何誤解或誤讀概不負責。
+**免責聲明**：  
+本文件係使用 AI 翻譯服務 [Co-op Translator](https://github.com/Azure/co-op-translator) 進行翻譯。雖然我哋致力確保準確性，但請注意，自動翻譯可能包含錯誤或不準確之處。原始文件嘅母語版本應被視為權威來源。對於重要資料，建議採用專業人工翻譯。我哋對因使用本翻譯而引致嘅任何誤解或誤釋概不負責。

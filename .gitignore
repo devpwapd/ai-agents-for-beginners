@@ -10,10 +10,13 @@
 *.userosscache
 *.sln.docstates
 .env
-/coop/ 
+.chainlit
+.venv
+*.DS_Store
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
+.coop/
 
 # Mono auto generated files
 mono_crash.*
@@ -41,6 +44,7 @@ bld/
 
 # Visual Studio 2017 auto generated files
 Generated\ Files/
+venv
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
@@ -398,3 +402,9 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Ignore all files in chroma_db directory
+05-agentic-rag/code_samples/chroma_db/
+
+# Ignore PNG files in the specified directory
+02-explore-agentic-frameworks/code_samples/*.png
